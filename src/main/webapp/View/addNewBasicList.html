@@ -1,0 +1,67 @@
+<html lang="java">
+<head>
+    <title>Add new task</title>
+    <link rel="stylesheet" href="./Style/style.css" type="text/css">
+</head>
+<body>
+<div class="main2">
+    <form id="formId" class="myForm2" method="post">
+        <label>
+            <input type="text" name="basicName" placeholder="Name of task">
+            <br>
+            <br>
+            <textarea class="myInputText" placeholder="Place for comment" name="comment"></textarea>
+            <br>
+            <br>
+            <input type="text" name="priority" oninput="changeHandler(this)" value="5">
+            <br>
+            <br>
+            <input class="myDeadLine" type="time" name="deadLine" value="00:00">
+            <br>
+            <br>
+            <button class="mySubmit" type="submit">Submit</button>
+        </label>
+    </form>
+</div>
+
+<script>
+    function validListNumber(number) {
+        if (number > 10 || number < 1) {
+            const error = "Priority: " + number + " entered. Possible range: 1 to 10.";
+            alert(error);
+            throw new Error(error)
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        console.log("ready");
+
+        document.getElementById('formId').addEventListener("submit", function (e) {
+            e.preventDefault();
+            let priority = e.target.priority.value;
+            let basicName = e.target.basicName.value;
+
+            validListNumber(priority)
+
+            if (basicName.length > 20) {
+                alert("Number of characters in a line: " + basicName.length + ". Maximum possible number: 20");
+                throw new Error("The number of characters in a line is more than 20")
+            }
+            if (basicName.length === 0) {
+                alert("Number of characters must be at least 1");
+                throw new Error("Number of characters must be at least 1")
+            }
+
+            e.target.submit();
+        });
+    });
+</script>
+
+<script>
+    const changeHandler = e => {
+        const value = e.value;
+        e.value = value.replace(/\D/g, '');
+    }
+</script>
+</body>
+</html>

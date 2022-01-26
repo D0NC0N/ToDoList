@@ -1,0 +1,438 @@
+html {
+    overflow: auto;
+}
+
+body {
+    background-image: url(Kotonoha_no_Niwa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: auto;
+}
+
+.div {
+    display: none;
+}
+
+h1 {
+    font-family: "Courier New", serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #cca158;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Courier New", serif;
+    font-size: 25px;
+    color: #cca158;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+}
+
+.main {
+    width: 500px;
+    height: 600px;
+    padding: 30px;
+    position: fixed;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: rgba(22, 242, 255, 0.52);
+    border-radius: 36px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.main2 {
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    position: fixed;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: rgba(22, 242, 255, 0.52);
+    border-radius: 36px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.main3 {
+    width: 400px;
+    height: 600px;
+    padding: 30px;
+    position: fixed;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: rgba(22, 242, 255, 0.52);
+    border-radius: 36px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.ol {
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.group {
+    font-family: "Courier New", serif;
+    font-size: 23px;
+    color: #cca158;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.subgroup {
+    font-family: "Courier New", serif;
+    font-size: 19px;
+    color: #cca158;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.button {
+    font-family: "Courier New", serif;
+    font-size: 16px;
+    color: #cca158;
+    background: bisque;
+    border-radius: 50%;
+    border: 1px solid #cca158;
+    text-shadow: 1px 1px 1px #000;
+}
+.button:hover {
+    background: rgb(245,218,186);
+}
+.button:active {
+    background: rgb(238, 220, 147);
+    box-shadow: 0 3px rgb(238, 220, 147) inset;
+}
+
+.button2 {
+    font-family: "Courier New", serif;
+    font-size: 16px;
+    color: #cca158;
+    background: bisque;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #000;
+    padding: 5px;
+}
+
+.button2:hover {
+    background: rgb(245,218,186);
+}
+.button2:active {
+    background: rgb(238, 220, 147);
+    box-shadow: 0 3px rgb(238, 220, 147) inset;
+}
+
+.buttonLog {
+    font-family: "Courier New", serif;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    text-align: -moz-center;
+    alignment: center;
+    left: 58%;
+    top: 10%;
+
+    color: #cca158;
+    background: bisque;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #000;
+    padding: 5px;
+}
+
+.buttonLog:hover {
+    background: rgb(245,218,186);
+}
+.buttonLog:active {
+    background: rgb(238, 220, 147);
+    box-shadow: 0 3px rgb(238, 220, 147) inset;
+}
+
+.buttonWatch {
+    font-family: "Courier New", serif;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    text-align: -moz-center;
+    alignment: center;
+    left: 58%;
+    top: 10%;
+
+    color: #cca158;
+    background: bisque;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #000;
+    padding: 5px;
+}
+
+.buttonWatch:hover {
+    background: rgb(245,218,186);
+}
+.buttonWatch:active {
+    background: rgb(238, 220, 147);
+    box-shadow: 0 3px rgb(238, 220, 147) inset;
+}
+
+.buttonSort {
+    font-family: "Courier New", serif;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    text-align: -moz-center;
+    alignment: center;
+    top: 10%;
+
+    color: #cca158;
+    background: bisque;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #000;
+    padding: 5px;
+}
+
+.buttonSort:hover {
+    background: rgb(245,218,186);
+}
+.buttonSort:active {
+    background: rgb(238, 220, 147);
+    box-shadow: 0 3px rgb(238, 220, 147) inset;
+}
+
+input[type=text] {
+    padding: 5px;
+    alignment: center;
+    font-family: Arial, serif;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+.myForm {
+    display: inline-block;
+    position: relative;
+    alignment: center;
+    left: 43%;
+
+    top: 0;
+    font-size: 2em;
+    color: bisque;
+    font-family: Arial, serif;
+    text-shadow: 1px 1px 1px #000;
+    margin:10px 0;
+}
+
+.myForm2 {
+    display: inline-block;
+    position: relative;
+    alignment: center;
+    text-align: center;
+
+    left: 20%;
+
+    top: 10%;
+    font-size: 2em;
+    color: bisque;
+    font-family: Arial, serif;
+    text-shadow: 1px 1px 1px #000;
+    margin:10px 0;
+}
+
+.myForm3 {
+    display: inline-block;
+    position: relative;
+    alignment: center;
+    text-align: center;
+    left: 34%;
+    top: 0;
+    font-size: 16px;
+
+    color: bisque;
+    font-family: Arial, serif;
+    text-shadow: 1px 1px 1px #000;
+    margin:10px 0;
+}
+
+.myForm4 {
+    display: inline-block;
+    position: relative;
+    alignment: center;
+    text-align: center;
+    left: 20%;
+    top: 0;
+    font-size: 25px;
+
+    color: bisque;
+    font-family: Arial, serif;
+    text-shadow: 1px 1px 1px #000;
+    margin:10px 0;
+}
+
+.myRadio {
+    color: #cca158;
+    background: bisque;
+}
+
+.delForm {
+    float: right;
+    margin-left: 30px;
+}
+
+.commentForm {
+    display: inline-block;
+    position: relative;
+    width: 40%;
+    height: 50px;
+    padding: 10px;
+
+    top: 0;
+    font-size: 2em;
+    color: bisque;
+    font-family: Arial, serif;
+    text-shadow: 1px 1px 1px #000;
+    margin:10px 0;
+}
+
+.myInputText {
+    font-family: Arial, serif;
+    width: 90%;
+    height: 38px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+.dateForm {
+    text-align: center;
+    alignment: center;
+}
+
+.myDeadLine {
+    display: inline-block;
+    position: relative;
+    alignment: center;
+    top: 0;
+    color: #111111;
+    font-family: Arial, serif;
+    margin:10px 0;
+}
+
+.mySubmit {
+    font-family: "Courier New", serif;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    text-align: -moz-center;
+    alignment: center;
+
+    color: #cca158;
+    background: bisque;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #000;
+    padding: 5px;
+
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+}
+.mySubmit:hover {
+    background: rgb(245,218,186);
+}
+.mySubmit:active {
+    background: rgb(225,208,166);
+    box-shadow: 0 3px rgb(225,208,166) inset;
+}
+
+.myChange {
+    font-family: "Courier New", serif;
+    font-size: 16px;
+
+    display: inline-block;
+    position: relative;
+    text-align: -moz-center;
+    alignment: center;
+    right: 45%;
+
+    color: #cca158;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #000;
+
+    width: 80px;
+    height: 30px;
+
+    border-radius: 3px;
+    background: rgb(255,228,196);
+}
+.myChange:hover {
+    background: rgb(245,218,186);
+}
+.myChange:active {
+    background: rgb(225,208,166);
+    box-shadow: 0 3px rgb(225,208,166) inset;
+}
+
+.popup {
+    overflow: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    width: calc(100% + 20px);
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    background-color: rgba(47, 79, 79, 0.8);
+    top: 0;
+    left: 0;
+    display: none;
+    border-radius: 36px;
+    padding: 8px;
+}
+
+.popup_body {
+    min-height: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.popup_content {
+    background-color: floralwhite;
+    color: #333333;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 36px;
+}
+
+.popup_title {
+    font-family: "Courier New", serif;
+    font-size: 25px;
+    color: #cca158;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+}
+
+.popup_close {
+    color: #c99944;
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    font-size: 20px;
+    background: rgb(255,228,196);
+    box-shadow: 0 -2px rgb(245,218,186) inset;
+    font-family: Arial, serif;
+}
+.popup_close:hover {
+    background: rgb(245,218,186);
+}
+.popup_close:active {
+    background: rgb(225,208,166);
+    box-shadow: 0 3px rgb(225,208,166) inset;
+}
