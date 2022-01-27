@@ -115,10 +115,6 @@ public class ToDoListData {
     }
     
     public ArrayList<ToDoList> getToDoLists(int userId, Date requestDate) {
-        int year = requestDate.getYear();
-        int month = requestDate.getMonth();
-        int date = requestDate.getDate();
-
         ArrayList<ToDoList> userToDoLists = new ArrayList<>();
         for (ToDoList toDoList : toDoLists) {
             if (toDoList.getUserId() == userId && compareDate(requestDate, toDoList.getDay())) {
