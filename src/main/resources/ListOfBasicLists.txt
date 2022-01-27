@@ -1,8 +1,7 @@
-0: NaVi; 7; 12:00; No comments; s1mple,Perfecto,electronic,;
+0: NaVi; 8; 15:15; Major champions; s1mple,Perfecto,electronic,;
 1: NiP; 9; 19:15; ; REZ,hampus,dev1ce,;
-2: Heroic; 6; 17:10; Mad danish; cadiaN,;
+2: Heroic; 6; 17:10; ; cadiaN,;
 3: Fnatic; 6; 15:15; Fnatic are back?; KRIMZ,;
 4: Vitality; 3; 21:15; ; ZywOo,;
 5: Astralis; 4; 13:20; ; gla1ve,k0nfig,;
 6: Gambit; 6; 14:20; ; sh1ro,Ax1Le,Hobbit,;
-8: Game; 5; 00:00; ; ;

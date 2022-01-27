@@ -1,5 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Watch-change</title>
@@ -8,7 +9,7 @@
 <body>
 <jsp:useBean id="lists" scope="request" type="java.util.List"/>
 
-<button class="buttonLog" type="button" onclick="window.location.href='BackFromGuestServlet'">Back</button>
+<button class="buttonBack" type="button" onclick="window.location.href='BackFromGuestServlet'">Back</button>
 
 <div class="main">
     <h1>

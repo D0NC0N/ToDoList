@@ -121,8 +121,7 @@ public class ToDoListData {
 
         ArrayList<ToDoList> userToDoLists = new ArrayList<>();
         for (ToDoList toDoList : toDoLists) {
-            if (toDoList.getUserId() == userId && year == toDoList.getDay().getYear()
-                    && month == toDoList.getDay().getMonth() && date == toDoList.getDay().getDate()) {
+            if (toDoList.getUserId() == userId && compareDate(requestDate, toDoList.getDay())) {
                 userToDoLists.add(toDoList);
             }
         }
