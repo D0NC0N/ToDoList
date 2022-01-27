@@ -5,4 +5,5 @@
 4: Vitality; 3; 21:15; ; ZywOo,;
 5: Astralis; 4; 13:20; ; gla1ve,k0nfig,;
 6: Gambit; 6; 14:20; ; sh1ro,Ax1Le,Hobbit,;
-7: G2; 5; 00:00; ; ;
+7: Game; 5; 12:00; asjdhkjas; ;
+8: G2; 5; 00:00; m0nesy; ;
